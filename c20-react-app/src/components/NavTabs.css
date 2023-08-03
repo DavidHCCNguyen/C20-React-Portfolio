@@ -1,0 +1,45 @@
+/* styles.css */
+/* NavTabs.css */
+.nav-tabs {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.nav-link:hover {
+  background-color: #ddd;
+}
+
+/* Specific colors for each tab */
+.nav-link.active.home {
+  background-color: #ff6347; /* Tomato Red */
+  color: #fff;
+}
+
+.nav-link.active.resume {
+  background-color: #1e90ff; /* Dodger Blue */
+  color: #fff;
+}
+
+.nav-link.active.Portfolio {
+  background-color: #3cb371; /* Medium Sea Green */
+  color: #fff;
+}
+
+.nav-link.active.contact {
+  background-color: #ffa500; /* Orange */
+  color: #fff;
+}

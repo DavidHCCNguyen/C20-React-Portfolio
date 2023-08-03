@@ -1,0 +1,40 @@
+:root {
+    --background-color: #b3b3b3;
+    --text-color: #333;
+}
+
+body {
+    background-color: var(--background-color);
+    background-image: url('../../../Assets/Background.jpg');
+    background-size: cover;
+}
+
+/* PortfolioContainer.css */
+.portfolio-container {
+    max-width: 1200px; /* Set the maximum width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding around the container */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-image: url('../../../Assets/Background2.jpg');
+    background-size: cover;
+  }
+  
+  /* Style for the page content (assuming it's in the Home, Resume, Blog, or Contact components) */
+  .page-content {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust the percentage to control the spacing between the images */
+    margin-bottom: 20px; /* Adjust the margin to control the spacing between the rows of images */
+    border-radius: 5px;
+    overflow: hidden; /* Ensure images maintain their aspect ratio and don't overflow the container */
+  }
+  
+  .page-content img {
+    width: 100%; /* Ensure images take the full width of the container */
+    height: 100%; /* Maintain the aspect ratio of images */
+    object-fit: cover; /* Maintain aspect ratio and fill the container */
+  }
+  
