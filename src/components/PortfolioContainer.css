@@ -5,7 +5,7 @@
 
 body {
     background-color: var(--background-color);
-    background-image: url('../../../Assets/Background.jpg');
+    background-image: url('../../Assets/Background.jpg');
     background-size: cover;
 }
 
@@ -20,7 +20,7 @@ body {
     background-color: #f0f0f0;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    background-image: url('../../../Assets/Background2.jpg');
+    background-image: url('../../Assets/Background2.jpg');
     background-size: cover;
   }
   
