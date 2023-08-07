@@ -1,4 +1,5 @@
 import React from "react";
+import './Contact.css';
 
 export default function Contact() {
   return (
@@ -34,6 +35,7 @@ export default function Contact() {
         <label htmlFor="message">Message</label>
         <textarea id="message" name="message" rows="4" />
       </div>
+      <button type="submit">Submit</button>
     </div>
   );
 }

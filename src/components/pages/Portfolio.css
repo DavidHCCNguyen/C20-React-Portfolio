@@ -1,0 +1,33 @@
+/* Portfolio.css */
+
+/* Style for the container holding the popular repositories */
+.popular-repos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Style for each repository block */
+  .repo-block {
+    flex: 0 0 calc(33.33% - 20px);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .repo-block img {
+    width: 100%;
+    height: 150px; /* Set a fixed height for all images */
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .repo-block p {
+    margin-top: 10px;
+  }
+  
