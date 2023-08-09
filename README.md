@@ -1,8 +1,37 @@
-# 20 React: React Portfolio
+# 20: React Portfolio
 
-## Your Task
+## Task
 
 As a dedicated web developer, I understand the importance of having a portfolio that showcases my projects and skills in the most modern and impressive way possible. Therefore, I took up the challenge to create a portfolio using the latest technologies, specifically using React. With this React-powered portfolio, I aim to set myself apart from other developers and present my work in a visually appealing and user-friendly manner.
+
+This is going to be a portfolio that will be filled with 4 tabs powered by js/react:
+
+```md
+-Home:
+The Home tab will be a brief introduction of myself and my goals as a developer.
+
+-Resume:
+The Resume tab will be a downloadable pdf of my resume.
+
+
+-Portfolio:
+The Portfolio tab will be a showcase of my projects.
+
+-ContactL:
+The Contact tab will be a form that will allow users to contact me.
+```
+
+[This is the repo that contains the Portfolio code.](https://github.com/DavidHCCNguyen/C20-React-Portfolio)
+
+And this will be the deployed site's look:
+![This is the deployed site's look.](./Assets/Capture.PNG)
+
+To make sure it runs fine for you if you have the repo in your local machine, run the following commands in your terminal (First remove build to grab a fresh one):
+
+npm i && npm run build && npm run start:
+
+This would update the npm and create the folder that would be used for the start npm,
+making the page work!
 
 ## User Story
 
