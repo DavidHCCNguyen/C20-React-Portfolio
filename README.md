@@ -24,7 +24,7 @@ The Contact tab will be a form that will allow users to contact me.
 [This is the repo that contains the Portfolio code.](https://github.com/DavidHCCNguyen/C20-React-Portfolio)
 
 And this will be the deployed site's look:
-![This is the deployed site's look.](./Assets/Capture.PNG)
+![This is the deployed site's look.](./Assets/CaptureNone.PNG)
 
 To make sure it runs fine for you if you have the repo in your local machine, run the following commands in your terminal (First remove build to grab a fresh one):
 
