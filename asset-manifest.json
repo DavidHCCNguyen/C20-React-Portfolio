@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/UOAWDC20-React-Portfolio/static/css/main.037b36df.css",
+    "main.js": "/UOAWDC20-React-Portfolio/static/js/main.c1445c98.js",
+    "static/media/Background2.jpg": "/UOAWDC20-React-Portfolio/static/media/Background2.31ba09dc322d138c5cb2.jpg",
+    "static/media/Background.jpg": "/UOAWDC20-React-Portfolio/static/media/Background.15dc255099186b0991fd.jpg",
+    "index.html": "/UOAWDC20-React-Portfolio/index.html",
+    "main.037b36df.css.map": "/UOAWDC20-React-Portfolio/static/css/main.037b36df.css.map",
+    "main.c1445c98.js.map": "/UOAWDC20-React-Portfolio/static/js/main.c1445c98.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.037b36df.css",
+    "static/js/main.c1445c98.js"
+  ]
+}
