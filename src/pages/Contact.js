@@ -23,6 +23,33 @@ export default function Contact() {
         to hearing from you and continuing this journey together.
       </p>
       <p>Thank you once again for visiting, and I hope you have a great day!</p>
+
+      <h2>Social Media:</h2>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/d1avi1d/" target="_blank" rel="noopener noreferrer">
+            Instagram
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/people/David-Nguyen/pfbid02Z97BBxQDKd9BQruBLBZ8xVbavJ8w5fqeWvjudN9K2q14WaLLURM1EWww5SuaKLKRl/?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
+            Facebook
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/DavidHCCNguyen" target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/david-nguyen-1a742023a/" target="_blank" rel="noopener noreferrer">
+            LinkedIn
+          </a>
+        </li>
+      </ul>
+
+      <h2>Contact Form:</h2>
+      <p>Currently Does not work. (In progress!)</p>
       <div>
         <label htmlFor="name">Name</label>
         <input type="text" id="name" name="name" />

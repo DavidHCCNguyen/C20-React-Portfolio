@@ -4,6 +4,7 @@ import Home from '../pages/Home';
 import Resume from '../pages/Resume';
 import Portfolio from '../pages/Portfolio';
 import Contact from '../pages/Contact';
+import MiniGames from '../pages/MiniGames'; // Import the MiniGames component
 import './PortfolioContainer.css';
 
 export default function PortfolioContainer() {
@@ -20,16 +21,20 @@ export default function PortfolioContainer() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
-    return <Contact />;
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    if (currentPage === 'MiniGames') {
+      return <MiniGames />;
+    }
+    return null;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className="portfolio-container"> {/* Add the container here */}
-      {/* We are passing the currentPage from state and the function to update it */}
+    <div className="portfolio-container">
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
     </div>
   );

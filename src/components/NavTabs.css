@@ -43,3 +43,8 @@
   background-color: #ffa500; /* Orange */
   color: #fff;
 }
+
+.nav-link.active.minigames{
+  background-color: #ff00c8; /* Orange */
+  color: #fff;
+}
