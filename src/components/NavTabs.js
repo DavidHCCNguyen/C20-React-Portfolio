@@ -44,15 +44,6 @@ function NavTabs({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
-      <li className="nav-item">
-        <a
-          href="#minigames"
-          onClick={() => handlePageChange('MiniGames')}
-          className={`nav-link ${currentPage === 'MiniGames' ? 'active minigames' : ''}`}
-        >
-          Mini Games
-        </a>
-      </li>
     </ul>
   );
 }

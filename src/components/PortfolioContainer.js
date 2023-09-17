@@ -4,7 +4,6 @@ import Home from '../pages/Home';
 import Resume from '../pages/Resume';
 import Portfolio from '../pages/Portfolio';
 import Contact from '../pages/Contact';
-import MiniGames from '../pages/MiniGames'; // Import the MiniGames component
 import './PortfolioContainer.css';
 
 export default function PortfolioContainer() {
@@ -23,9 +22,6 @@ export default function PortfolioContainer() {
     }
     if (currentPage === 'Contact') {
       return <Contact />;
-    }
-    if (currentPage === 'MiniGames') {
-      return <MiniGames />;
     }
     return null;
   };

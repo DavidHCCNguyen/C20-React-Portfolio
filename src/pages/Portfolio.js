@@ -1,29 +1,36 @@
 import React, { useState, useEffect } from "react";
 import "./Portfolio.css";
+
 const popularRepos = [
   {
     name: "F1-Wondering-Swordsman",
     link: "https://github.com/DavidHCCNguyen/F1-Wondering-Swordsman",
+    image: "../Assets/Capture.PNG",
   },
   {
     name: "C06-Weather-Forcast",
     link: "https://github.com/DavidHCCNguyen/C06-Weather-Forcast",
+    image: "../Assets/Capture1.PNG",
   },
   {
     name: "C05-Work-Day-Scheduler",
     link: "https://github.com/DavidHCCNguyen/C05-Work-Day-Scheduler",
+    image: "../Assets/Capture2.PNG",
   },
   {
     name: "C19-Text-Editor",
     link: "https://github.com/DavidHCCNguyen/C19-Text-Editor",
+    image: "../Assets/Capture3.PNG",
   },
   {
     name: "C17-Regex-Assistance",
     link: "https://github.com/DavidHCCNguyen/C17--Regex-Assistance",
+    image: "../Assets/Capture4.PNG",
   },
   {
     name: "C12-Employee-Tracker",
     link: "https://github.com/DavidHCCNguyen/C12-Employee-Tracker",
+    image: "../Assets/Capture5.PNG",
   },
 ];
 
